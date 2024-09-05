@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(ViewModel.self) private var viewModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List(viewModel.lists) { list in
+                // TODO: Use a NavigationLink to select a list.
+            }
+            .navigationTitle("Lists")
         }
-        .padding()
     }
 }
 

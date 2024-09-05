@@ -14,6 +14,8 @@
 		19DB31E52C8A030900585D17 /* VineyardAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB31E42C8A030900585D17 /* VineyardAssignmentTests.swift */; };
 		19DB31EF2C8A030900585D17 /* VineyardAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB31EE2C8A030900585D17 /* VineyardAssignmentUITests.swift */; };
 		19DB31F12C8A030900585D17 /* VineyardAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB31F02C8A030900585D17 /* VineyardAssignmentUITestsLaunchTests.swift */; };
+		B7A636C92C8A2EB600D38DC7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A636C82C8A2EB300D38DC7 /* Model.swift */; };
+		B7A636CB2C8A2EBF00D38DC7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A636CA2C8A2EBC00D38DC7 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		19DB31EA2C8A030900585D17 /* VineyardAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VineyardAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DB31EE2C8A030900585D17 /* VineyardAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VineyardAssignmentUITests.swift; sourceTree = "<group>"; };
 		19DB31F02C8A030900585D17 /* VineyardAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VineyardAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7A636C82C8A2EB300D38DC7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B7A636CA2C8A2EBC00D38DC7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				19DB31D32C8A030800585D17 /* VineyardAssignmentApp.swift */,
 				19DB31D52C8A030800585D17 /* ContentView.swift */,
+				B7A636C82C8A2EB300D38DC7 /* Model.swift */,
+				B7A636CA2C8A2EBC00D38DC7 /* ViewModel.swift */,
 				19DB31D72C8A030900585D17 /* Assets.xcassets */,
 				19DB31D92C8A030900585D17 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A636C92C8A2EB600D38DC7 /* Model.swift in Sources */,
 				19DB31D62C8A030800585D17 /* ContentView.swift in Sources */,
+				B7A636CB2C8A2EBF00D38DC7 /* ViewModel.swift in Sources */,
 				19DB31D42C8A030800585D17 /* VineyardAssignmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VineyardAssignment/Preview Content\"";
-				DEVELOPMENT_TEAM = D46454C83G;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -451,7 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VineyardAssignment/Preview Content\"";
-				DEVELOPMENT_TEAM = D46454C83G;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
