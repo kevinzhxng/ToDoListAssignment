@@ -8,7 +8,7 @@
 import SwiftUI
 
 @Observable
-class ViewModel: ObservableObject {
+class ViewModel {
     var lists: [ItemList] = [
         // Note: You could add some mock lists here to make testing easy.
     ]

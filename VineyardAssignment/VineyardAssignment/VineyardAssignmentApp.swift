@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct VineyardAssignmentApp: App {
-    @StateObject private var viewModel = ViewModel()
+    @State private var viewModel = ViewModel()
     
     var body: some Scene {
         WindowGroup {
